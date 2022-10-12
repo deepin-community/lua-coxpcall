@@ -1,0 +1,5 @@
+# test this watch file using:
+# uscan --watchfile debian/watch --upstream-version 0.0.1 --package lua-coxpcall
+version=4
+opts="filenamemangle=s/.+\/v?(\d+)_(\d+)_(\d+)\.tar\.gz/@PACKAGE@-$1.$2.$3\.tar\.gz/, uversionmangle=s/(\d+)_(\d+)_(\d+)/$1.$2.$3/" \
+https://github.com/keplerproject/coxpcall/tags .*/v?(\d+_\d+_\d+)\.tar\.gz

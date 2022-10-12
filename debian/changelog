@@ -1,0 +1,91 @@
+lua-coxpcall (1.17.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * control:
+    + Update Vcs-* to refer to Salsa
+    + Change Homepage to keplerproject.github.io URL
+    + Set Rules-Requires-Root=no
+  * Bump debheper compat/Build-Depends to 11
+  * Make watch file work with GitHub again
+  * Include lua5.3 support
+  * Declare compliance with Policy 4.4.1, no changes needed
+
+ -- James McCoy <jamessan@debian.org>  Sat, 14 Dec 2019 15:42:19 -0500
+
+lua-coxpcall (1.14.0-2) unstable; urgency=low
+
+  * Removed ancient Conflicts in control
+  * Use Expat instead of MIT/X in copyright
+
+ -- Enrico Tassi <gareuselesinge@debian.org>  Fri, 23 Aug 2013 15:46:41 +0200
+
+lua-coxpcall (1.14.0-1) unstable; urgency=low
+
+  * New upstream release supporting Lua 5.2
+  * Packaging moved to git
+  * Transitional packages removed
+
+ -- Enrico Tassi <gareuselesinge@debian.org>  Mon, 30 Apr 2012 17:20:10 +0200
+
+lua-coxpcall (1.13.0-6) unstable; urgency=low
+
+  * Clean up debian/rules
+  * Build-depend on dh-lua >= 12
+
+ -- Enrico Tassi <gareuselesinge@debian.org>  Mon, 30 Apr 2012 17:19:28 +0200
+
+lua-coxpcall (1.13.0-5) unstable; urgency=low
+
+  * Fixed override dh_auto_clean target
+
+ -- Enrico Tassi <gareuselesinge@debian.org>  Wed, 18 Apr 2012 16:04:55 +0200
+
+lua-coxpcall (1.13.0-4) unstable; urgency=low
+
+  * Update debian/copyright to format 1.0
+  * Switch to dh-lua
+  * Packages renamed according to the new Lua policy
+  * Bumped standards-version to 3.9.3, no changes
+  * Update watch file
+  * debian/compat set to 8
+
+ -- Enrico Tassi <gareuselesinge@debian.org>  Wed, 18 Apr 2012 09:47:18 +0200
+
+lua-coxpcall (1.13.0-3) unstable; urgency=low
+
+  * source format 3.0 (quilt)
+  * bumped standards-version to 3.9.2, no changes
+
+ -- Enrico Tassi <gareuselesinge@debian.org>  Fri, 22 Jul 2011 22:25:37 +0200
+
+lua-coxpcall (1.13.0-2) unstable; urgency=low
+
+  * bumped standards-version to 3.8.2, no changes
+  * build-depend on lua5.1-policy-dev >= 22
+
+ -- Enrico Tassi <gareuselesinge@debian.org>  Tue, 21 Jul 2009 17:00:12 +0200
+
+lua-coxpcall (1.13.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Enrico Tassi <gareuselesinge@debian.org>  Wed, 21 May 2008 16:05:22 +0200
+
+lua-coxpcall (1.12.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Enrico Tassi <gareuselesinge@debian.org>  Sat, 10 May 2008 13:34:23 +0200
+
+lua-coxpcall (1.11.0+cvs20080310-2) unstable; urgency=low
+
+  * Added Conflicts with old versions of xavante (Closes: #475964)
+
+ -- Enrico Tassi <gareuselesinge@debian.org>  Thu, 17 Apr 2008 09:27:04 +0200
+
+lua-coxpcall (1.11.0+cvs20080310-1) unstable; urgency=low
+
+  * Initial release. (Closes: #472789)
+
+ -- Enrico Tassi <gareuselesinge@debian.org>  Wed, 26 Mar 2008 11:39:37 +0100
